@@ -1,0 +1,43 @@
+@import './colors';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.news {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: red;
+
+	&__hero {
+		width: 100%;
+		display: flex;
+		justify-content: flex-start;
+		padding: 2rem;
+		img {
+			width: 110px;
+		}
+	}
+
+	&__img {
+		width: 100%;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	a {
+		color: hsl(228, 45%, 44%);
+	}
+}

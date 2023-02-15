@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: red;
+}
+.news__hero {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 2rem;
+}
+.news__hero img {
+  width: 110px;
+}
+.news__img {
+  width: 100%;
+}
+.news__img img {
+  width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
