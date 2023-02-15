@@ -17,12 +17,12 @@
 	background-color: red;
 
 	&__hero {
-		width: 100%;
 		display: flex;
 		justify-content: flex-start;
+		width: 100%;
 		padding: 2rem;
 		img {
-			width: 110px;
+			width: 6.875rem;
 		}
 	}
 
