@@ -29,6 +29,23 @@
 .news__img img {
   width: 100%;
 }
+.news__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.news__title {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+.news__titleOne {
+  font-weight: 300;
+  font-size: 3rem;
+  letter-spacing: 0.6rem;
+  text-transform: uppercase;
+  color: hsl(0deg, 93%, 68%);
+}
 
 .attribution {
   font-size: 11px;
