@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: red;
+  background-color: rgb(227, 204, 204);
 }
 .news__hero {
   display: flex;
@@ -34,6 +34,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
 }
 .news__title {
   text-align: center;
@@ -45,6 +46,35 @@
   letter-spacing: 0.6rem;
   text-transform: uppercase;
   color: hsl(0deg, 93%, 68%);
+}
+.news__titleTwo {
+  font-weight: 400;
+  font-size: 3rem;
+  letter-spacing: 0.6rem;
+  text-transform: uppercase;
+  color: black;
+}
+.news__text {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  padding: 3rem 3rem 1rem 3rem;
+  color: hsl(0deg, 36%, 70%);
+}
+.news__form {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  width: 100%;
+}
+.news__input {
+  width: 100%;
+  border: 1px solid black;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 10px;
 }
 
 .attribution {
