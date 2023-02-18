@@ -129,7 +129,8 @@
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
     height: 100vh;
-    background: linear-gradient(135deg, hsl(0deg, 0%, 100%), hsl(0deg, 100%, 98%));
+    background: none;
+    background-image: url(../images/bg-pattern-desktop.svg);
   }
   .news__hero {
     display: block;
