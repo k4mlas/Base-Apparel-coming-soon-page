@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background: linear-gradient(135deg, hsl(0deg, 0%, 100%), hsl(0deg, 100%, 98%));
+  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
 }
 .news__hero {
   display: flex;
@@ -48,7 +48,7 @@
 }
 .news__titleOne {
   font-weight: 300;
-  color: hsl(0deg, 36%, 70%);
+  color: hsl(0, 36%, 70%);
 }
 .news__titleTwo {
   font-weight: 400;
@@ -58,7 +58,7 @@
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
   padding: 3rem 3rem 1rem 3rem;
-  color: hsl(0deg, 36%, 70%);
+  color: hsl(0, 36%, 70%);
 }
 .news__form {
   position: relative;
@@ -74,7 +74,7 @@
 .news__input {
   width: 100%;
   height: 3.3rem;
-  border: 0.031rem solid hsl(0deg, 36%, 70%);
+  border: 0.031rem solid hsl(0, 36%, 70%);
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -84,10 +84,10 @@
   padding: 1rem;
 }
 .news__input::-moz-placeholder {
-  color: hsl(0deg, 36%, 70%);
+  color: hsl(0, 36%, 70%);
 }
 .news__input::placeholder {
-  color: hsl(0deg, 36%, 70%);
+  color: hsl(0, 36%, 70%);
 }
 .news__formIcon {
   display: none;
@@ -111,13 +111,13 @@
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  border: 0.031rem solid hsl(0deg, 36%, 70%);
-  background: linear-gradient(135deg, hsl(0deg, 80%, 86%), hsl(0deg, 74%, 74%));
+  border: 0.031rem solid hsl(0, 36%, 70%);
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   box-shadow: 2px 2px 22px red;
   cursor: pointer;
 }
 .news__btn:hover {
-  background: hsl(0deg, 93%, 68%);
+  background: hsl(0, 93%, 68%);
 }
 .news__error {
   position: absolute;
@@ -127,7 +127,7 @@
   font-family: "Josefin Sans", sans-serif;
   font-size: 15px;
   text-align: center;
-  color: hsl(0deg, 93%, 68%);
+  color: hsl(0, 93%, 68%);
 }
 
 .attribution {
@@ -136,7 +136,7 @@
   text-align: center;
 }
 .attribution a {
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
 
 @media (min-width: 992px) {
