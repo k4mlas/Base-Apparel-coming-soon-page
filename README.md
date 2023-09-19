@@ -1,6 +1,6 @@
 # Frontend Mentor - Base Apparel coming soon page
 
-https://k4mlas.github.io/Base-Apparel-coming-soon-page/
+I invite you to check my project by clicking on the link below: https://k4mlas.github.io/Base-Apparel-coming-soon-page/
 
 ![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
 
